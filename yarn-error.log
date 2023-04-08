@@ -1,46 +1,21 @@
 Arguments: 
-<<<<<<< HEAD
-  C:\Program Files\nodejs\node.exe C:\Users\gupta\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @styled-components
-
-PATH: 
-  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\gupta\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\gupta\AppData\Local\Programs\Python\Python310;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Users\gupta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin;;C:\Users\gupta\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.3\bin;;C:\Program Files\JetBrains\PyCharm 2022.2.3\bin;;C:\Users\gupta\AppData\Roaming\npm
-=======
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add styled-components
 
 PATH: 
   C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\msys64\mingw64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\AJIT\AppData\Local\Microsoft\WindowsApps;C:\Users\AJIT\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Users\AJIT\AppData\Roaming\npm;C:\Users\AJIT\AppData\Local\Yarn\bin
->>>>>>> d843ad0a8ba96da5807df4df7c2672528cfae6bb
 
 Yarn version: 
   1.22.19
 
 Node version: 
-<<<<<<< HEAD
-  18.15.0
-=======
   18.12.1
->>>>>>> d843ad0a8ba96da5807df4df7c2672528cfae6bb
 
 Platform: 
   win32 x64
 
 Trace: 
-<<<<<<< HEAD
-  Error: https://registry.yarnpkg.com/@styled-components: Request "https://registry.yarnpkg.com/@styled-components" returned a 405
-      at params.callback [as _callback] (C:\Users\gupta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
-      at self.callback (C:\Users\gupta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
-      at Request.emit (node:events:513:28)
-      at Request.<anonymous> (C:\Users\gupta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
-      at Request.emit (node:events:513:28)
-      at IncomingMessage.<anonymous> (C:\Users\gupta\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
-      at Object.onceWrapper (node:events:627:28)
-      at IncomingMessage.emit (node:events:525:35)
-      at endReadableNT (node:internal/streams/readable:1359:12)
-      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-=======
   Error: connect ETIMEDOUT 127.218.0.64:443
       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
->>>>>>> d843ad0a8ba96da5807df4df7c2672528cfae6bb
 
 npm manifest: 
   {
@@ -48,11 +23,6 @@ npm manifest:
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-<<<<<<< HEAD
-      "@material-ui/core": "^4.12.4",
-      "@material-ui/icons": "^4.11.3",
-=======
->>>>>>> d843ad0a8ba96da5807df4df7c2672528cfae6bb
       "@testing-library/jest-dom": "^5.11.4",
       "@testing-library/react": "^11.1.0",
       "@testing-library/user-event": "^12.1.10",
@@ -101,19 +71,11 @@ Lockfile:
     integrity sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA==
   
   "@ampproject/remapping@^2.2.0":
-<<<<<<< HEAD
-    version "2.2.1"
-    resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.1.tgz#99e8e11851128b8702cd57c33684f1d0f260b630"
-    integrity sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==
-    dependencies:
-      "@jridgewell/gen-mapping" "^0.3.0"
-=======
     version "2.2.0"
     resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
     integrity sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==
     dependencies:
       "@jridgewell/gen-mapping" "^0.1.0"
->>>>>>> d843ad0a8ba96da5807df4df7c2672528cfae6bb
       "@jridgewell/trace-mapping" "^0.3.9"
   
   "@babel/code-frame@7.10.4":
