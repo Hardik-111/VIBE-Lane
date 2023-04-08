@@ -9,8 +9,8 @@ const App = () => {
   // return <Login/>;
   // return <ProductList/>;
   // return <Product/>;
-  return <Home/>;
-  // return <Cart/>;
+  // return <Home/>;
+  return <Cart/>;
 };
 
 export default App;
