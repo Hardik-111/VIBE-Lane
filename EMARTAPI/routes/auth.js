@@ -48,4 +48,19 @@ router.post('/login', async (req, res) => {
 
 });
 
+// Logout
+
+router.post('/logout', (req, res) => {
+  try {
+    // Clear the access token from client-side storage
+    localStorage.removeItem('accessToken');
+
+    // Send a success response
+    res.status(200).json('Logged out successfully.');
+  } catch (err) {
+    // Send an error response if something went wrong
+    res.status(500).json({ message: err.message });
+  }
+});
+
 module.exports = router;
