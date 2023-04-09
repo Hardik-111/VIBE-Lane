@@ -81,18 +81,25 @@ const Navbar = () => {
                     <Search style={{ color: "gray", fontSize: 16 }}/>
                 </SearchContainer>
             </Left>
-            <Center><Logo>E-Mart</Logo></Center>   
+            <Center>
+              <Link to="/">
+              <Logo>E-Mart</Logo>
+              </Link>
+              </Center>   
             <Right>
- 
+              <Link to="/register">
                 <MenuItem>REGISTER</MenuItem>
+              </Link>
+              <Link to="/login">
                 <MenuItem>SIGN IN</MenuItem>
-                <Link to="/cart">
+              </Link>  
+              <Link to="/cart">
                 <MenuItem>
                 <Badge badgeContent={quantity} color="primary">
                     <ShoppingCartOutlined />
                 </Badge>
                 </MenuItem>
-                </Link>
+              </Link>
                 
             </Right> 
         </Wrapper>
