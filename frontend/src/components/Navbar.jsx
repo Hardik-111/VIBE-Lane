@@ -95,10 +95,13 @@ const Navbar = () => {
               </Link>  
               <Link to="/cart">
                 <MenuItem>
-                <Badge badgeContent={quantity} color="primary">
+                <Badge overlap='rectangular' badgeContent={quantity} color="primary">
                     <ShoppingCartOutlined />
                 </Badge>
                 </MenuItem>
+              </Link>
+              <Link to="/logout">
+                <MenuItem>LOGOUT</MenuItem>
               </Link>
                 
             </Right> 
