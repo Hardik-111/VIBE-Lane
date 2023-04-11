@@ -26,7 +26,7 @@ const ImgContainer = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 90vh;
-  object-fit: cover;
+  object-fit: contain;
   ${mobile({ height: "40vh" })}
 `;
 
@@ -132,7 +132,7 @@ const Product = () => {
   useEffect(() => {
     const getProduct = async () => {
       try {
-        const res = await publicRequest.get("/products/v1/find/" + id);
+        const res = await publicRequest.get("/v1/products/find/" + id);
         setProduct(res.data);
       } catch {}
     };
