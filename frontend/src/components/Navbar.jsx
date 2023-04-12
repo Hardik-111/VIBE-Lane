@@ -82,26 +82,26 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-              <Link to="/">
+              <Link to="/" className="link" >
               <Logo>E-Mart</Logo>
               </Link>
               </Center>   
             <Right>
-              <Link to="/register">
+              <Link to="/register" className="link">
                 <MenuItem>REGISTER</MenuItem>
               </Link>
-              <Link to="/login">
+              <Link to="/login" className="link">
                 <MenuItem>SIGN IN</MenuItem>
               </Link>  
-              <Link to="/cart">
+              <Link to="/logout" className="link">
+                <MenuItem>LOGOUT</MenuItem>
+              </Link>
+              <Link to="/cart" className="link">
                 <MenuItem>
                 <Badge overlap='rectangular' badgeContent={quantity} color="primary">
                     <ShoppingCartOutlined />
                 </Badge>
                 </MenuItem>
-              </Link>
-              <Link to="/logout">
-                <MenuItem>LOGOUT</MenuItem>
               </Link>
                 
             </Right> 

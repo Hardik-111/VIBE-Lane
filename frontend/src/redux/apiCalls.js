@@ -13,8 +13,8 @@ export const login = async (dispatch, user) => {
 
 export const logout = async () => {
   try {
-    const response = await publicRequest.post("/v1/auth/logout");
-    return response.data;
+    const res = await publicRequest.post("/v1/auth/logout");
+    return res.data;
   } catch (error) {
     console.error('Error logging out:', error);
   }
