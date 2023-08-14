@@ -1,4 +1,4 @@
-#E-Mart\
+#VIBE-LANE\
 An e-commerce website to sell products online.
 
 It includes different features like :
